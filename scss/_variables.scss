@@ -1,0 +1,23 @@
+/* =Size Text
+-----------------------------------------------------------------------------*/
+$text-size-xs:		10px;
+$text-size-sm:		12px;
+$text-size-md:		14px;
+$text-size-lg:		16px;
+$text-size-full:		18px;
+
+/* =Size h1
+-----------------------------------------------------------------------------*/
+$h1-size-xs:		20px;
+$h1-size-sm:		24px;
+$h1-size-md:		28px;
+$h1-size-lg:			38px;
+$h1-size-full:		48px;
+
+/* = Size Breakpoints
+-----------------------------------------------------------------------------*/
+$screen-xs:				480px  !default;		// -> Extra small (Phone)
+$screen-sm:			768px  !default;		// -> Small  (Smartphone)
+$screen-md:			1024px  !default;		// -> Medium (Laptop and tablets)
+$screen-lg:				1224px  !default;		// -> Large (Desktops PC)
+$screen-full:			1824px  !default;		// -> Full (Device full HD)
