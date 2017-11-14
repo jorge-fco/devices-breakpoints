@@ -1,19 +1,33 @@
-### Variables
-* xs = 		480
-* small = 	780
-* medium = 	1024
-* large = 	1224
-* full = 	1824
 
-```
-$screen-xs:			480px  !default;		// -> Extra small (Phone)
-$screen-sm:			768px  !default;		// -> Small  (Smartphone)
-$screen-md:			1024px  !default;		// -> Medium (Laptop and tablets)
-$screen-lg:			1224px  !default;		// -> Large (Desktops PC)
-$screen-full:			1824px  !default;		// -> Full (Device full HD)
-```
+## Mobile First
+
+## Viewport
+
+### Variables
+* xs = 		000
+* small = 	000
+* medium = 	0000
+* large = 	0000
+* full = 	0000
+
+### Emulator devices
+
+The shortcut you should use to open **Google** DevTools is actually **ctrl-shift-j.**
+
+[browserstack](https://www.browserstack.com/)
+
+### Devices sizes
+
+📏 [screensiz](http://screensiz.es/)
+
+📏 [viewport sizes](http://viewportsizes.com/)
+
+📏 [Device metrics](https://material.io/devices/)
 
 ### References
+
+📎 [Bootstrap 3 breakpoints and media queries](https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries)
+
 📎 [Kube css variables](https://github.com/imperavi/kube/blob/master/src/_scss/_variables.scss)
 
 📎 [Bulma initial variables](https://github.com/jgthms/bulma/blob/master/sass/utilities/initial-variables.sass)
@@ -28,21 +42,3 @@ $screen-full:			1824px  !default;		// -> Full (Device full HD)
 
 📎 [Google guidelines responsive ui breakpoints](https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints)
 
-
-Install bower
-
-```
-	bower install
-```
-
-Install jquery
-
-```
-	bower install jquery
-```
-
-Install Bootstrap
-
-```
-	npm install bootstrap@4.0.0-beta.2
-```
