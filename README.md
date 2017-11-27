@@ -6,15 +6,16 @@
 ### Variables
 * xs = 		000
 * small = 	000
-* medium = 	0000
+* medium = 0000
 * large = 	0000
 * full = 	0000
 
 ### Emulator devices
 
-The shortcut you should use to open **Google** DevTools is actually **ctrl-shift-j.**
+💻 The shortcut you should use to open **Google** DevTools is actually **ctrl-shift-j.**
 
-[browserstack](https://www.browserstack.com/)
+💻 [browserstack](https://www.browserstack.com/)
+
 
 ### Devices sizes
 
@@ -24,9 +25,13 @@ The shortcut you should use to open **Google** DevTools is actually **ctrl-shift
 
 📏 [Device metrics](https://material.io/devices/)
 
-### References
+### Media queries
 
 📎 [Bootstrap 3 breakpoints and media queries](https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries)
+
+[Mozila Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
+
+### References Frameworks variables
 
 📎 [Kube css variables](https://github.com/imperavi/kube/blob/master/src/_scss/_variables.scss)
 

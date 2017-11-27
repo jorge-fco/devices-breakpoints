@@ -1,0 +1,48 @@
+.header{
+	width: 100%;
+	position: relative;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.section{
+	width: 100%;
+	position: relative;
+}
+
+.section__mobile{
+	display: none;
+	@include media(small){
+		display: block;
+	}
+}
+
+.section__laptop{
+	display: none;
+	@include media(medium){
+		display: block;
+	}
+}
+
+.section__desktop{
+	display: none;
+	@include media(large){
+		display: block;
+	}
+}
+
+.section__full{
+	display: none;
+	@include media(full){
+		display: block;
+	}
+}
+
+.section__grid{
+	width: 1px;
+	height: 100vh;
+	top: 0;
+	left: 10%;
+	position: relative;
+	background-color: black;
+}

@@ -11,7 +11,7 @@
 	/* =SmarthPhone
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, small){
-		@media only screen and (max-width: $screen-sm) {
+		@media only screen and (min-width: 0) and (max-width: $screen-sm){
 			@content;
 		}
 	}
@@ -19,7 +19,7 @@
 	/* =Laptops and Tablets
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, medium){
-		@media only screen and (min-width : $screen-sm) and (max-width : $screen-md){
+		@media only screen and (min-width : $screen-sm) and (max-width: $screen-md){
 			@content;
 		}
 	}
@@ -27,7 +27,7 @@
 	/* =Desktops
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, large){
-		@media only screen and (min-width : $screen-lg) {
+		@media only screen and (min-width: $screen-lg ) {
 			@content;
 		}
 	}
@@ -35,11 +35,8 @@
 	/* =Full Screens
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, full){
-		@media only screen and (min-width : $screen-full) {
+		@media only screen and (min-width : $screen-full){
 			@content;
 		}
 	}
 }
-
-
-
