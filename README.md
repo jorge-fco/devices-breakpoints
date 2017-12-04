@@ -1,7 +1,8 @@
+# Break
+### Mobile First
 
-## Mobile First
-
-## Viewport
+### Viewport
+(1920 px for 1080 px)
 
 ### Variables
 * xs = 		000
@@ -29,7 +30,9 @@
 
 📎 [Bootstrap 3 breakpoints and media queries](https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries)
 
-[Mozila Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
+📎 [Get Bootstrap v4-alpha](http://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints)
+
+📎  [Mozila Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
 
 ### References Frameworks variables
 

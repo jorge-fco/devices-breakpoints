@@ -14,11 +14,16 @@ $h1-size-md:		28px;
 $h1-size-lg:			38px;
 $h1-size-full:		48px;
 
+/* =Grid
+-----------------------------------------------------------------------------*/
+$grid-gutter:		2%;
+$grid-columns:		12;
+
 /* = Size Breakpoints
 -----------------------------------------------------------------------------*/
 $screen-xs:				480px  !default;		// -> Extra small (Phone)
-$screen-sm:			768px  !default;		// -> Small  (Smartphone)
-$screen-md:			1024px  !default;		// -> Medium (Laptop and tablets)
-$screen-lg:				1200px  !default;		// -> Large (Desktops PC)
-$screen-full:			1600px  !default;		// -> Full (Device full HD)
+$screen-sm:			576px  !default;		// -> Small  (Smartphone)
+$screen-md:			768px  !default;		// -> Medium (Laptop and tablets)
+$screen-lg:				992px  !default;		// -> Large (Desktops PC)
+$screen-full:			1200px  !default;		// -> Full (Device full HD)
 

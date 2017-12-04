@@ -2,6 +2,8 @@
 -----------------------------------------------------------------------------*/
 /* =Size h1
 -----------------------------------------------------------------------------*/
+/* =Grid
+-----------------------------------------------------------------------------*/
 /* = Size Breakpoints
 -----------------------------------------------------------------------------*/
 h1 {
@@ -55,100 +57,212 @@ h1 {
 	-----------------------------------------------------------------------------*/
   /* =Full Screens
 	-----------------------------------------------------------------------------*/ }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (min-width: 480px) {
     h1 {
       font-size: 20px; } }
-  @media only screen and (min-width: 0) and (max-width: 768px) {
+  @media (min-width: 576px) {
     h1 {
       font-size: 24px; } }
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) {
     h1 {
       font-size: 28px; } }
-  @media only screen and (min-width: 1200px) {
+  @media (min-width: 992px) {
     h1 {
       font-size: 38px; } }
-  @media only screen and (min-width: 1600px) {
+  @media (min-width: 1200px) {
     h1 {
       font-size: 48px; } }
 
-.header {
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .row.gutters {
+    margin-left: -2%; }
+
+.col-1 {
+  width: calc(8.33333% - 2%);
+  margin-left: 2%; }
+
+.col-2 {
+  width: calc(16.66667% - 2%);
+  margin-left: 2%; }
+
+.col-3 {
+  width: calc(25% - 2%);
+  margin-left: 2%; }
+
+.col-4 {
+  width: calc(33.33333% - 2%);
+  margin-left: 2%; }
+
+.col-5 {
+  width: calc(41.66667% - 2%);
+  margin-left: 2%; }
+
+.col-6 {
+  width: calc(50% - 2%);
+  margin-left: 2%; }
+
+.col-7 {
+  width: calc(58.33333% - 2%);
+  margin-left: 2%; }
+
+.col-8 {
+  width: calc(66.66667% - 2%);
+  margin-left: 2%; }
+
+.col-9 {
+  width: calc(75% - 2%);
+  margin-left: 2%; }
+
+.col-10 {
+  width: calc(83.33333% - 2%);
+  margin-left: 2%; }
+
+.col-11 {
+  width: calc(91.66667% - 2%);
+  margin-left: 2%; }
+
+.col-12 {
+  width: calc(100% - 2%);
+  margin-left: 2%; }
+
+body {
+  margin: 0;
+  background-color: #ffffff; }
+
+header {
   width: 100%;
   position: relative;
-  padding-top: 3%;
-  padding-bottom: 3%; }
+  text-align: center; }
+  header h1 {
+    font-size: 1em;
+    /* =Mobile small
+	-----------------------------------------------------------------------------*/
+    /* =SmarthPhone
+	-----------------------------------------------------------------------------*/
+    /* =Laptops and Tablets
+	-----------------------------------------------------------------------------*/
+    /* =Desktops
+	-----------------------------------------------------------------------------*/
+    /* =Full Screens
+	-----------------------------------------------------------------------------*/
+    /* =Mobile small
+	-----------------------------------------------------------------------------*/
+    /* =SmarthPhone
+	-----------------------------------------------------------------------------*/
+    /* =Laptops and Tablets
+	-----------------------------------------------------------------------------*/
+    /* =Desktops
+	-----------------------------------------------------------------------------*/
+    /* =Full Screens
+	-----------------------------------------------------------------------------*/
+    /* =Mobile small
+	-----------------------------------------------------------------------------*/
+    /* =SmarthPhone
+	-----------------------------------------------------------------------------*/
+    /* =Laptops and Tablets
+	-----------------------------------------------------------------------------*/
+    /* =Desktops
+	-----------------------------------------------------------------------------*/
+    /* =Full Screens
+	-----------------------------------------------------------------------------*/
+    /* =Mobile small
+	-----------------------------------------------------------------------------*/
+    /* =SmarthPhone
+	-----------------------------------------------------------------------------*/
+    /* =Laptops and Tablets
+	-----------------------------------------------------------------------------*/
+    /* =Desktops
+	-----------------------------------------------------------------------------*/
+    /* =Full Screens
+	-----------------------------------------------------------------------------*/ }
+    @media (min-width: 576px) {
+      header h1 {
+        color: green;
+        font-size: 2em; } }
+    @media (min-width: 768px) {
+      header h1 {
+        color: blue;
+        font-size: 2.5em; } }
+    @media (min-width: 992px) {
+      header h1 {
+        color: red;
+        font-size: 3em; } }
+    @media (min-width: 1200px) {
+      header h1 {
+        color: cyan;
+        font-size: 3.5em; } }
 
-.section {
+section {
   width: 100%;
   position: relative; }
 
-.section__mobile {
-  display: none;
-  /* =Mobile small
-	-----------------------------------------------------------------------------*/
-  /* =SmarthPhone
-	-----------------------------------------------------------------------------*/
-  /* =Laptops and Tablets
-	-----------------------------------------------------------------------------*/
-  /* =Desktops
-	-----------------------------------------------------------------------------*/
-  /* =Full Screens
-	-----------------------------------------------------------------------------*/ }
-  @media only screen and (min-width: 0) and (max-width: 768px) {
-    .section__mobile {
-      display: block; } }
+.container-grid {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+  background-color: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  .container-grid:before {
+    content: '1200px';
+    top: 0;
+    left: 50%;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 1em; }
+  .container-grid:after {
+    content: '';
+    top: 0;
+    position: absolute; }
 
-.section__laptop {
-  display: none;
-  /* =Mobile small
-	-----------------------------------------------------------------------------*/
-  /* =SmarthPhone
-	-----------------------------------------------------------------------------*/
-  /* =Laptops and Tablets
-	-----------------------------------------------------------------------------*/
-  /* =Desktops
-	-----------------------------------------------------------------------------*/
-  /* =Full Screens
-	-----------------------------------------------------------------------------*/ }
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .section__laptop {
-      display: block; } }
+.grid__line {
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  position: relative;
+  background-color: #d8e9fa; }
 
-.section__desktop {
-  display: none;
-  /* =Mobile small
-	-----------------------------------------------------------------------------*/
-  /* =SmarthPhone
-	-----------------------------------------------------------------------------*/
-  /* =Laptops and Tablets
-	-----------------------------------------------------------------------------*/
-  /* =Desktops
-	-----------------------------------------------------------------------------*/
-  /* =Full Screens
-	-----------------------------------------------------------------------------*/ }
-  @media only screen and (min-width: 1200px) {
-    .section__desktop {
-      display: block; } }
-
-.section__full {
-  display: none;
-  /* =Mobile small
-	-----------------------------------------------------------------------------*/
-  /* =SmarthPhone
-	-----------------------------------------------------------------------------*/
-  /* =Laptops and Tablets
-	-----------------------------------------------------------------------------*/
-  /* =Desktops
-	-----------------------------------------------------------------------------*/
-  /* =Full Screens
-	-----------------------------------------------------------------------------*/ }
-  @media only screen and (min-width: 1600px) {
-    .section__full {
-      display: block; } }
-
-.section__grid {
+.view__start {
   width: 1px;
   height: 100vh;
   top: 0;
-  left: 10%;
-  position: relative;
-  background-color: black; }
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1); }
+  .view__start:before {
+    content: '0px';
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 1em; }
+
+.view__end {
+  width: 1px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1); }
+  .view__end:before {
+    content: '1920px';
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 1em; }

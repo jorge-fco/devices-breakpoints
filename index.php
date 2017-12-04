@@ -7,42 +7,34 @@
 
 	<title>Devices</title>
 
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
+
 	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<h1>Devices</h1>
-		</div>
+	<header>
+		<h1>Viewport</h1>
 	</header>
-
 	<section class="section">
-		<div class="container">
-			<div class="section__mobile">
-				<h2>Mobile</h2>
-				<p>(0 px and 768 px)</p>
-			</div>
-			<div class="section__laptop">
-				<h2>Laptop and Tablet</h2>
-				<p>(768 px and 1024 px)</p>
-			</div>
-			<div class="section__desktop">
-				<h2>Desktop</h2>
-				<p>(1024 px and 1200 px)</p>
-			</div>
-			<div class="section__full">
-				<h2>Ful HD</h2>
-				<p>(1200 px and 1600 px)</p>
-			</div>
-		</div>
-	</section>
 
-	<footer>
-		<div class="container">
-			
+		<div class="view__start"></div>
+
+		<div class="container-grid">
+			<div class="grid">
+				<div class="row gutters">
+					<?php for ($i=0; $i < 12; $i++) : ?>
+					<div class="col col-1">
+						<div class="grid__line"></div>
+					</div>
+					<?php endfor ?>
+				</div>
+			</div>
 		</div>
-	</footer>
+
+		<div class="view__end"></div>
+
+	</section>
 </body>
 </html>
