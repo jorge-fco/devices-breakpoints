@@ -1,41 +1,41 @@
 @mixin media($breakpoint...){
 
-	/* =Mobile small
+	/* =Small phones
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, xs){
-		@media only screen and (min-width : $screen-xs) {
+		@media (min-width: 0px) and (max-width: $screen-xs) {
 			@content;
 		}
 	}
 
-	/* =SmarthPhone
+	/* =Mobile, Smarthphone, Iphone
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, small){
-		@media (min-width: $screen-sm){
+		@media (min-width: 0px) and (max-width: $screen-sm) {
 			@content;
 		}
 	}
 
-	/* =Laptops and Tablets
+	/* =Laptos small, Tablet, Ipad
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, medium){
-		@media (min-width: $screen-md) {
+		@media (min-width: $screen-sm+1) and (max-width: $screen-md) {
 			@content;
 		}
 	}
 
-	/* =Desktops
+	/* =Desktop, Laptops large, Mackbook
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, large){
-		@media (min-width: $screen-lg ) {
+		@media (min-width: $screen-md+1) and (max-width: $screen-lg) {
 			@content;
 		}
 	}
 
-	/* =Full Screens
+	/* =Full HD
 	-----------------------------------------------------------------------------*/
 	@if index($breakpoint, full){
-		@media (min-width: $screen-full){
+		@media (min-width: $screen-lg+1) {
 			@content;
 		}
 	}

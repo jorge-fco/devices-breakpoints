@@ -1,15 +1,38 @@
-# Break
+# BreakPoints
+
 ### Mobile First
+
+### Range Queries
 
 ### Viewport
 (1920 px for 1080 px)
 
 ### Variables
-* xs = 		000
-* small = 	000
-* medium = 0000
-* large = 	0000
-* full = 	0000
+* xs = 			576px
+* small = 		768px
+* medium = 	1024px
+* large = 		1440px
+* full = 			1600px
+
+### Syntax scss
+
+```scss
+
+@mixin media($breakpoint...){
+
+}
+
+```
+
+```scss
+
+@if index($breakpoint, xs){
+	@media (min-width: 0px) and (max-width: $screen-xs) {
+		@content;
+	}
+}
+
+```
 
 ### Emulator devices
 

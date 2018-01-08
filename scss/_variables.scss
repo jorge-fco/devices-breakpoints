@@ -21,9 +21,9 @@ $grid-columns:		12;
 
 /* = Size Breakpoints
 -----------------------------------------------------------------------------*/
-$screen-xs:				480px  !default;		// -> Extra small (Phone)
-$screen-sm:			576px  !default;		// -> Small  (Smartphone)
-$screen-md:			768px  !default;		// -> Medium (Laptop and tablets)
-$screen-lg:				992px  !default;		// -> Large (Desktops PC)
-$screen-full:			1200px  !default;		// -> Full (Device full HD)
+$screen-xs:				576px  !default;		// -> Extra small (Phone)
+$screen-sm:			768px  !default;		// -> Small  (Smartphone)
+$screen-md:			1024px  !default;		// -> Medium (Laptop and tablets)
+$screen-lg:				1440px  !default;		// -> Large (Desktops PC)
+$screen-full:			1600px  !default;		// -> Full (Device full HD)
 

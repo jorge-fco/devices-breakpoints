@@ -1,17 +1,9 @@
-h1{
-	@include media(xs){
-		font-size: $h1-size-xs;
-	}
-	@include media(small){
-		font-size: $h1-size-sm;
-	}
-	@include media(medium){
-		font-size: $h1-size-md;
-	}
-	@include media(large){
-		font-size: $h1-size-lg;
-	}
-	@include media(full){
-		font-size: $h1-size-full;
-	}
+html{
+
+}
+
+body{
+	margin: 0;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
 }

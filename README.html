@@ -4,18 +4,32 @@
         <title>README.md</title>
       </head>
       <body>
-        <h1 id="break">Break</h1>
+        <h1 id="breakpoints">BreakPoints</h1>
 <h3 id="mobile-first">Mobile First</h3>
+<h3 id="range-queries">Range Queries</h3>
 <h3 id="viewport">Viewport</h3>
 <p>(1920 px for 1080 px)</p>
 <h3 id="variables">Variables</h3>
 <ul>
-<li>xs =         000</li>
-<li>small =     000</li>
-<li>medium = 0000</li>
-<li>large =     0000</li>
-<li>full =     0000</li>
+<li>xs =             576px</li>
+<li>small =         768px</li>
+<li>medium =     1024px</li>
+<li>large =         1440px</li>
+<li>full =             1600px</li>
 </ul>
+<h3 id="syntax-scss">Syntax scss</h3>
+<pre><code class="lang-scss">
+@mixin media($breakpoint...){
+
+}
+</code></pre>
+<pre><code class="lang-scss">
+@if index($breakpoint, xs){
+    @media (min-width: 0px) and (max-width: $screen-xs) {
+        @content;
+    }
+}
+</code></pre>
 <h3 id="emulator-devices">Emulator devices</h3>
 <p>💻 The shortcut you should use to open <strong>Google</strong> DevTools is actually <strong>ctrl-shift-j.</strong></p>
 <p>💻 <a href="https://www.browserstack.com/">browserstack</a></p>
