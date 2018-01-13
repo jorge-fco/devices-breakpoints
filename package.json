@@ -4,7 +4,8 @@
   "description": "Web Responsive",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.3"
+    "bootstrap": "^4.0.0-beta.3",
+    "highlight.js": "^9.12.0"
   },
   "devDependencies": {},
   "scripts": {

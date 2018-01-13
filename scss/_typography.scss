@@ -4,6 +4,19 @@ html{
 
 body{
 	margin: 0;
-	position: relative;
 	font-family: 'Roboto', sans-serif;
+	color: $color-text;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5 , h6{
+	color: $color-text;
+	font-weight: 700;
+}
+
+var, pre, code{
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
 }

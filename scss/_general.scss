@@ -1,0 +1,60 @@
+.item{
+	width: 100%;
+	height: 50vh;
+	border: 1px solid red;
+	position: relative;
+	h1{
+		display: none;
+		@include media(full){
+			display: block;
+		}
+	}
+	h2{
+		display: none;
+		@include media(large){
+			display: block;
+		}
+	}
+	h3{
+		display: none;
+		@include media(medium){
+			display: block;
+		}
+	}
+	h4{
+		display: none;
+		@include media(small){
+			display: block;
+		}
+	}
+}
+
+.grid-1920{
+	width: 100%;
+	height: 50vh;
+	position: relative;
+	margin: 0 auto;
+	background-color: #D9F2FA;
+	border: 1px solid  rgba(0, 0, 0, 0.1);
+	var{
+		font-size: 14px;
+		position: relative;
+		&:before{
+			content: '';
+			width: 1px;
+			height: 50px;
+			top: 0;
+			right: 0px;
+			position: absolute;
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+	}
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}

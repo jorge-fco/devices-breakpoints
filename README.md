@@ -4,8 +4,14 @@
 
 ### Range Queries
 
+### Media Queries
+
+### Important
+
 ### Viewport
 (1920 px for 1080 px)
+
+Get size the device [](https://mydevice.io)
 
 ### Variables
 * xs = 			576px
