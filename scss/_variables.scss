@@ -10,14 +10,14 @@ $color-text:				#212121;
 $color-text-black:			#111111;
 
 $color-divider:				#BDBDBD;
-$color-accent:				#F8F8F8;
+$color-accent:				#f6f8fa;
 
 
 /* = Size Breakpoints
 -----------------------------------------------------------------------------*/
 $screen-xs:				576px  !default;		// -> Extra small (Phone)
 $screen-sm:			768px  !default;		// -> Small  (Smartphone)
-$screen-md:			1024px  !default;		// -> Medium (Laptop and tablets)
-$screen-lg:				1440px  !default;		// -> Large (Desktops PC)
-$screen-full:			1600px  !default;		// -> Full (Device full HD)
+$screen-md:			1024px !default;		// -> Medium (Laptop and tablets)
+$screen-lg:				1440px !default;		// -> Large (Desktops PC)
+$screen-full:			1600px !default;		// -> Full (Device full HD)
 

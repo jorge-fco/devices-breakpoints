@@ -1,39 +1,8 @@
-.item{
-	width: 100%;
-	height: 50vh;
-	border: 1px solid red;
-	position: relative;
-	h1{
-		display: none;
-		@include media(full){
-			display: block;
-		}
-	}
-	h2{
-		display: none;
-		@include media(large){
-			display: block;
-		}
-	}
-	h3{
-		display: none;
-		@include media(medium){
-			display: block;
-		}
-	}
-	h4{
-		display: none;
-		@include media(small){
-			display: block;
-		}
-	}
-}
-
 .grid-1920{
 	width: 100%;
 	height: 50vh;
 	position: relative;
-	margin: 0 auto;
+	margin: 35px 0 35px 0;
 	background-color: #D9F2FA;
 	border: 1px solid  rgba(0, 0, 0, 0.1);
 	var{
@@ -49,6 +18,21 @@
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 	}
+}
+
+.pre{
+	padding: 16px;
+	overflow: auto;
+	background-color: $color-accent;
+	border-radius: 3px;
+}
+
+.code{
+	padding: 0.2em 0.4em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(27,31,35,0.05);
+	border-radius: 3px;
 }
 
 .text-left{

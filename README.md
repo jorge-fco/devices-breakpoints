@@ -1,44 +1,5 @@
 # BreakPoints
-
-### Mobile First
-
-### Range Queries
-
-### Media Queries
-
-### Important
-
-### Viewport
-(1920 px for 1080 px)
-
-Get size the device [](https://mydevice.io)
-
-### Variables
-* xs = 			576px
-* small = 		768px
-* medium = 	1024px
-* large = 		1440px
-* full = 			1600px
-
-### Syntax scss
-
-```scss
-
-@mixin media($breakpoint...){
-
-}
-
-```
-
-```scss
-
-@if index($breakpoint, xs){
-	@media (min-width: 0px) and (max-width: $screen-xs) {
-		@content;
-	}
-}
-
-```
+My breakpoints
 
 ### Emulator devices
 

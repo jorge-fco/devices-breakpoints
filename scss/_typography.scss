@@ -3,20 +3,59 @@ html{
 }
 
 body{
-	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: $color-text;
 	font-size: 16px;
-	font-weight: 400;
-	background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5 , h6{
 	color: $color-text;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+	strong{
+		font-weight: 700;
+	}
+}
+
+small{
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+strong{
 	font-weight: 700;
 }
 
 var, pre, code{
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Inconsolata', monospace;
+	font-size: 16px;
 	font-style: normal;
 }
