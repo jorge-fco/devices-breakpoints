@@ -1,0 +1,20 @@
+.footer{
+	width: 100%;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: $color-text;
+	a{
+		border: 0;
+		color: $color-text-light;
+		display: inline-block;
+		text-decoration: none;
+		position: relative;
+	}
+	small{
+		color: $color-text-light;
+		display: block;
+		font-size: 14px;
+		text-align: center;
+	}
+}

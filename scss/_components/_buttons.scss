@@ -1,0 +1,27 @@
+.button{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	padding: 12px 24px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	background-color: $color-secundary;
+	box-shadow: 0 5px 15px rgba(39, 40, 44, 0.15);
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-delay: 0.2s;
+	&:hover{
+		color: #ffffff;
+		border: 1px solid transparent;
+		background-color: $color-primary-dark;
+		box-shadow: 0 5px 15px rgba(39, 40, 44, 0.15);
+		transition-property: all;
+		transition-duration: 0.2s;
+		transition-delay: 0.2s;
+	}
+}
