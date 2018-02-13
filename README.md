@@ -3,12 +3,6 @@ My breakpoints
 
 📚 [View Wiki](https://github.com/jorgefrac/devices-breakpoints/wiki/)
 
-### Emulator devices
-
-💻 The shortcut you should use to open **Google** DevTools is actually **ctrl-shift-j.**
-
-💻 [browserstack](https://www.browserstack.com/)
-
 
 ### Media queries
 

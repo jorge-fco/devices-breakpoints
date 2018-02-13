@@ -3,4 +3,5 @@ package-lock.json
 prepos.cfg
 prepos.config
 prepos-6.config
+/prepos-6.config
 readme.html
