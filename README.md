@@ -1,20 +1,14 @@
 # BreakPoints
 My breakpoints
 
+📚 [View Wiki](https://github.com/jorgefrac/devices-breakpoints/wiki/)
+
 ### Emulator devices
 
 💻 The shortcut you should use to open **Google** DevTools is actually **ctrl-shift-j.**
 
 💻 [browserstack](https://www.browserstack.com/)
 
-
-### Devices sizes
-
-📏 [screensiz](http://screensiz.es/)
-
-📏 [viewport sizes](http://viewportsizes.com/)
-
-📏 [Device metrics](https://material.io/devices/)
 
 ### Media queries
 
@@ -40,3 +34,4 @@ My breakpoints
 
 📎 [Google guidelines responsive ui breakpoints](https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints)
 
+🐦 Twitter: [@jorge_frac](https://twitter.com/jorge_frac)

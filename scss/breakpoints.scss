@@ -1,0 +1,82 @@
+/* = Size Breakpoints
+-----------------------------------------------------------------------------*/
+$screen-xs:				576px  !default;		// -> Extra small (Phone)
+$screen-sm:			768px  !default;		// -> Small  (Smartphone)
+$screen-md:			1024px !default;		// -> Medium (Laptop and tablets)
+$screen-lg:				1440px !default;		// -> Large (Desktops PC)
+$screen-full:			1600px !default;		// -> Full (Device full HD)
+
+@mixin media($breakpoint...){
+
+	/* = Small phones
+	-----------------------------------------------------------------------------*/
+	@if index($breakpoint, xs){
+		@media (min-width: 0px) and (max-width: $screen-xs) {
+			@content;
+		}
+	}
+
+	/* =
+	- Apple iPhone 7
+	- Apple iPhone 6
+	- Apple iPad 1 & 2
+	- Apple iPad Mini
+	- LG Nexus 4
+	- Nokia Lumia 1020
+	- Motorola Moto G
+	- Apple iPhone 5 (5c, 5s)
+	- Apple iPhone 3GS
+	-----------------------------------------------------------------------------*/
+	@if index($breakpoint, small){
+		@media (min-width: 0px) and (max-width: $screen-sm) {
+			@content;
+		}
+	}
+
+	/* =
+	- HP 7 Plus Tablet
+	- Samsung Galaxy Tab 10.1
+	-----------------------------------------------------------------------------*/
+	@if index($breakpoint, medium){
+		@media (min-width: $screen-sm+1) and (max-width: $screen-md) {
+			@content;
+		}
+	}
+
+	/* =
+	- Apple MacBook Air 11-inch
+	- Apple MacBook Air 11-inch (Late 2010 - Mid 2012)
+	- Apple MacBook Pro 13-inch (Mid 2009 - Mid 2012)
+	- Apple MacBook Air 13-inch
+	- Apple MacBook Air 13-inch (Late 2010 - Mid 2012
+	- Apple MacBook Pro 15-inch (Early 2006 - Mid 2012)
+	- Acer Chromebook
+	- Dell Inspiron 15 5000 Series
+	- Huawei Nexus 6p
+	- Google Pixel XL
+	- LG G3
+	- LG G4
+	- Samsung Galaxy Note4
+	- Samsung Galaxy Note5
+	-----------------------------------------------------------------------------*/
+	@if index($breakpoint, large){
+		@media (min-width: $screen-md+1) and (max-width: $screen-lg) {
+			@content;
+		}
+	}
+
+	/* =
+	- Apple iPad 3 & 4
+	- Apple MacBook Pro 15-inch (Hi-Res screen)
+	- Apple iMac 21.5-inch (Late 2009 - Late 2012)
+	- Asus ROG G751JL-BSI7T28
+	- Dell S2340M 23"
+	- Lenovo K3 Note
+	- ViewSonic VX2452mh
+	-----------------------------------------------------------------------------*/
+	@if index($breakpoint, full){
+		@media (min-width: $screen-lg+1) {
+			@content;
+		}
+	}
+}
