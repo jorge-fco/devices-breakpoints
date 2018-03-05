@@ -5,3 +5,4 @@ prepos.config
 prepos-6.config
 /prepos-6.config
 readme.html
+node_modules/*

@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 	<!--C S S-->
-	<link rel="stylesheet" type="text/css" href="docs/css/docs.min.css?v=0.00">
+	<link rel="stylesheet" type="text/css" href="docs/css/docs.min.css?v=0.02">
 
 </head>
 <body>
@@ -78,82 +78,36 @@
 			<p><var>Medium = 1024px</var></p>
 			<p><var>Large = 1440px</var></p>
 			<p><var>Full = 1600px</var></p>
-			<pre>
-				<code class="scss">
-					/* = Size Breakpoints
-					-----------------------------------------------------------------------------*/
-					$screen-xs:			576px  !default;		// -> Extra small (Phone)
-					$screen-sm:			768px  !default;		// -> Small  (Smartphone)
-					$screen-md:			1024px !default;		// -> Medium (Laptop and tablets)
-					$screen-lg:			1440px !default;		// -> Large (Desktops PC)
-					$screen-full:			1600px !default;		// -> Full (Device full HD)
-				</code>
-			</pre>
+
+			<p>Example:</p>
+			<script src="https://gist.github.com/jorgefrac/d4d07299a8f05a23736a0ece071d1811.js"></script>
 		</div>
 	</section>
 
-	<section>
+	<section class="section">
 		<div class="container">
 			<h2>Sintaxis Breakpoints</h2>
 			<p>Declarando nuestra función para la utilización de medias queries.</p>
-			<pre>
-				<code class="scss">
-					@mixin media($breakpoint...){
+			<script src="https://gist.github.com/jorgefrac/f2bbd67b95c66e3f7b845b97424b46f8.js"></script>
 
-					}
-				</code>
-			</pre>
 			<p>Media querie para dispositivos de tipo 📱small</p>
-
-			<p>Small</p>
-			<pre>
-				<code class="scss">
-					@if index($breakpoint, small){
-						@media (min-width: 0px) and (max-width: $screen-sm) {
-							@content;
-						}
-					}
-				</code>
-			</pre>
+			<script src="https://gist.github.com/jorgefrac/fd3cc7aaf49187f5decff74b7f465a9f.js"></script>
 
 			<p>Media querie para dispositivos de tipo 📲medium</p>
-			<pre>
-				<code class="scss">
-					@if index($breakpoint, medium){
-						@media (min-width: $screen-sm+1) and (max-width: $screen-md) {
-							@content;
-						}
-					}
-				</code>
-			</pre>
+			<script src="https://gist.github.com/jorgefrac/af84ffbe5fcf3e2f88131cf9848ac895.js"></script>
 
 			<p>Media querie para dispositivos de tipo 💻large</p>
-			<pre>
-				<code class="scss">
-					@if index($breakpoint, large){
-						@media (min-width: $screen-md+1) and (max-width: $screen-lg) {
-							@content;
-						}
-					}
-				</code>
-			</pre>
+			<script src="https://gist.github.com/jorgefrac/eae22613fc13ebb306a7dacf8af30ac5.js"></script>
 
 			<p>Media querie para dispositivos de tipo 🖥full</p>
-			<pre>
-				<code class="scss">
-					@if index($breakpoint, full){
-						@media (min-width: $screen-lg+1) {
-							@content;
-						}
-					}
-				</code>
-			</pre>
+			<script src="https://gist.github.com/jorgefrac/af84ffbe5fcf3e2f88131cf9848ac895.js"></script>
 		</div>
 	</section>
 
 	<section class="section section__footer">
 		<div class="container">
 			<a href="https://github.com/jorgefrac/devices-breakpoints" title="GitHub" class="button" target="_blank">
+				<i class="fa fa-code-fork" aria-hidden="true"></i>
 				Ver en Github
 			</a>
 		</div>
@@ -163,20 +117,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
-					<a href="https://github.com/jorgefrac">📌jorgefrac</a>
+					<a href="https://github.com/jorgefrac">
+						<i class="fa fa-github" aria-hidden="true"></i>
+						jorgefrac
+					</a>
 				</div>
 				<div class="col-md-6 text-right">
-					<a href="https://twitter.com/jorge_frac">🐤@jorge_frac</a>
+					<a href="https://twitter.com/jorge_frac">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						@jorge_frac
+					</a>
 				</div>
 			</div>
-			<small>©Device Breakponits | 2018</small>
+			<small>© Device Breakponits | 2018</small>
 		</div>
 	</footer>
 
 	<!--J S-->
 	<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
-	<script src="js/plugins.min.js?v=0.03" type="text/javascript"></script>
-	<script src="js/app.js?v=0.03" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script src="js/plugins.min.js?v=0.04" type="text/javascript"></script>
+	<script src="js/app.js?v=0.04" type="text/javascript"></script>
 
 </body>
 </html>
