@@ -15,27 +15,33 @@ h1, h2, h3, h4, h5 , h6{
 }
 
 h1{
-
+	font-size: 2em;
+	margin-bottom: 0.5em;
 }
 
 h2{
-
+	font-size: 1.75em;
+	margin-bottom: 0.5714em;
 }
 
 h3{
-
+	font-size: 1.5em;
+	margin-bottom: 0.6666em;
 }
 
 h4{
-
+	font-size: 1.25em;
+	margin-bottom: 0.8em;
 }
 
 h5{
-
+	font-size: 1.125em;
+	margin-bottom: 0.8888em;
 }
 
 h6{
-
+	font-size: 1em;
+	margin-bottom: 1em;
 }
 
 a{
@@ -69,4 +75,17 @@ var, pre, code{
 	font-family: 'Inconsolata', monospace;
 	font-size: 16px;
 	font-style: normal;
+}
+
+var{
+	margin: 0;
+	padding: 0.2em 0.4em;
+	background-color: rgba(27,31,35,0.05);
+}
+
+code{
+	color: #0366d6;
+	border-radius: 3px;
+	background-color: #f1f8ff;
+	padding: 0.3em 0.9em;
 }

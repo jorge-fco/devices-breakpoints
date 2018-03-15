@@ -2,7 +2,18 @@
 
 	app = {
 		init: function(){
-			app.Code();
+			app.Orientation();
+		},
+		Orientation: function(){
+			if (window.matchMedia("(orientation: portrait)").matches) {
+				// you're in PORTRAIT mode
+				alert('PORTRAIT');
+			}
+
+			if (window.matchMedia("(orientation: landscape)").matches) {
+				// you're in LANDSCAPE mode
+				alert('LANDSCAPE');
+			}
 		},
 		Code: function(){
 			hljs.configure({useBR: true});
