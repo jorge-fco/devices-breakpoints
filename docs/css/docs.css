@@ -9324,20 +9324,6 @@ var, pre, code {
       position: absolute;
       background-color: rgba(0, 0, 0, 0.1); }
 
-.pre {
-  padding: 16px;
-  overflow: auto;
-  background-color: #f6f8fa;
-  border-radius: 3px; }
-
-.code {
-  color: #212121;
-  padding: 0.2em 0.4em;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(27, 31, 35, 0.05);
-  border-radius: 3px; }
-
 .text-left {
   text-align: left; }
 
@@ -9353,7 +9339,9 @@ var, pre, code {
   margin: 0;
   padding: 50px;
   padding-bottom: 50px;
-  background-color: #f6f8fa; }
+  background-color: #f7f7f7;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc; }
 
 .footer {
   width: 100%;
